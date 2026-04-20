@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Links</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  text-align: center;
+}
+
+/* Background */
+.bg {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  background: url('https://images.unsplash.com/photo-1487958449943-2429e8be8625') no-repeat center/cover;
+  filter: brightness(0.25);
+  z-index: -1;
+}
+
+/* Main Card */
+.container {
+  width: 90%;
+  max-width: 420px;
+  background: rgba(0,0,0,0.4);
+  padding: 30px 20px;
+  border-radius: 20px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+/* Profile */
+.profile img {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  border: 3px solid #c2a26b; /* Sand Color */
+  margin-bottom: 15px;
+}
+
+/* Name */
+h1 {
+  margin-bottom: 25px;
+  font-weight: 600;
+  color: #e5c58a;
+}
+
+/* Buttons */
+a {
+  display: block;
+  margin: 12px 0;
+  padding: 14px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 17px;
+  color: #fff;
+  background: linear-gradient(135deg, #c2a26b, #8b6b3e);
+  transition: 0.3s;
+}
+
+a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 5px 15px rgba(194,162,107,0.4);
+}
+
+/* Footer small text */
+.footer {
+  margin-top: 15px;
+  font-size: 13px;
+  color: #ccc;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="bg"></div>
+
+<div class="container">
+
+  <!-- Profile -->
+  <div class="profile">
+    <img src="https://via.placeholder.com/120" alt="Profile">
+  </div>
+
+  <h1>MAMDOUH METWALLI</h1>
+
+  <!-- Links -->
+  <a href="https://https://api.whatsapp.com/send?phone=9660509542033" target="_blank">📱 WhatsApp</a>
+  <a href="mailto:mamdouh@ufuq-sa.net">📧 Email</a>
+  <a href="https://ufuq-sa.net" target="_blank">🌐 Website</a>
+
+  <div class="footer">
+    Construction & Contracting
+  </div>
+
+</div>
+
+</body>
+</html>
